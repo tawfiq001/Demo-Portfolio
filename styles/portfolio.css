@@ -1,3 +1,6 @@
+ /* *{
+    margin: 0;
+ } */
  nav ul {
      display: flex;
      align-items: center;
@@ -8,6 +11,13 @@
      justify-content: space-between;
      margin: 50px 230px;
  }
+.Header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png') ;
+    background-position: right bottom, left ;
+    background-repeat: no-repeat;
+    
+}
 
  header h2 {
      font-weight: 800px;
@@ -74,8 +84,37 @@
      color: #FD6E0A;
      padding: 18px 35px;
      border-radius: 5px;
-     border: 0;
+     border: 2;
+     border-color: #FD6E0A;
  }
- .ImH{
-    margin-right: 35;
+
+ .ImH {
+     margin-right: 35;
+ }
+ .Useful{
+    margin: 0 auto;
+    max-width: 1150px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    
+ }
+ .About_Section{
+    margin-top: 130px;
+    /* width:250px 850px; */
+    padding: 130px 150px;
+    text-align: center;
+ }
+ .About{
+    font-weight: 700;
+    font-size: 35px;
+ }
+ .table{
+   padding right: 20px;;
+    
+ }
+ #Strong{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    font: bold;
  }
