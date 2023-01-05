@@ -1,0 +1,81 @@
+ nav ul {
+     display: flex;
+     align-items: center;
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-between;
+     margin: 50px 230px;
+ }
+
+ header h2 {
+     font-weight: 800px;
+     font size: 55px;
+     /* margin-top: 61px; */
+ }
+
+ nav li {
+     list-style: none;
+     margin-left: 50px;
+     /* margin-top: 51px; */
+     text-decoration: none;
+ }
+
+ * {
+     font-family: 'Open Sans', sans-serif;
+     ;
+ }
+
+ .Nav_Title {
+     color: #FD6E0A;
+ }
+
+ .OrB {
+     border: 0px;
+     background: #FD6E0A;
+     border-radius: 5px;
+     color: #FFFFFF;
+     font-weight: 700;
+     font-size: 20px;
+     padding: 18px 35px;
+ }
+
+ .Hardy {
+     font-weight: 700;
+     font-size: 40px;
+     color: #181818;
+ }
+
+ .Hardysub {
+     font-weight: 600;
+     font-size: 25px;
+     color: #474747;
+ }
+
+ .Hardydes {
+     width: 700px;
+     font-weight: 400;
+     font-size: 18px;
+     color: #757575;
+ }
+
+ .banner {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-left: 230px;
+ }
+
+ .WHB {
+     margin-left: 30px;
+     font-weight: 700;
+     font-size: 20px;
+     color: #FD6E0A;
+     padding: 18px 35px;
+     border-radius: 5px;
+     border: 0;
+ }
+ .ImH{
+    margin-right: 35;
+ }
